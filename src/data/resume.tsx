@@ -31,7 +31,7 @@ export const DATA = {
     social: {
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/davidurbano",
+        url: "https://www.linkedin.com/in/david-urbano-3119231/",
         icon: Icons.linkedin,
         navbar: true,
       },
