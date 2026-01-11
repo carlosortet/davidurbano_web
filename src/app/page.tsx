@@ -236,19 +236,21 @@ export default function Page() {
                 conversations about digital banking innovation?
                 <br /><br />
                 Feel free to reach out via{" "}
-                <Link
+                <a
                   href={DATA.contact.social.LinkedIn.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-blue-500 hover:underline"
                 >
                   LinkedIn
-                </Link>{" "}
+                </a>{" "}
                 or{" "}
-                <Link
+                <a
                   href={`mailto:${DATA.contact.email}`}
                   className="text-blue-500 hover:underline"
                 >
                   email
-                </Link>
+                </a>
                 .
                 <br /><br />
                 I&apos;m always open to discussing fintech, growth strategy,
