@@ -26,7 +26,7 @@ export const DATA = {
     { href: "/#speaking", icon: MicIcon, label: "Speaking" },
   ],
   contact: {
-    email: "durbano@imagin.com",
+    email: "durbanom@gmail.com",
     tel: "",
     social: {
       LinkedIn: {
@@ -43,7 +43,7 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url: "mailto:durbano@imagin.com",
+        url: "mailto:durbanom@gmail.com",
         icon: Icons.email,
         navbar: true,
       },

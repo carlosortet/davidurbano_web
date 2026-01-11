@@ -103,6 +103,150 @@ export default function RootLayout({
         <meta name="theme-color" content="#ffffff" />
         <meta name="msapplication-TileColor" content="#ffffff" />
         <link rel="canonical" href={DATA.url} />
+        {/* Schema.org JSON-LD for SEO */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": "Person",
+                  "@id": `${DATA.url}#person`,
+                  "name": DATA.name,
+                  "givenName": "David",
+                  "familyName": "Urbano",
+                  "jobTitle": "Chief Growth & Digital Sales Officer",
+                  "description": DATA.description,
+                  "url": DATA.url,
+                  "image": `${DATA.url}/me.jpeg`,
+                  "email": "mailto:durbanom@gmail.com",
+                  "sameAs": [
+                    "https://www.linkedin.com/in/davidurbano",
+                    "https://twitter.com/davidurbano"
+                  ],
+                  "worksFor": {
+                    "@type": "Organization",
+                    "name": "imagin (CaixaBank)",
+                    "url": "https://imagin.com"
+                  },
+                  "alumniOf": [
+                    {
+                      "@type": "EducationalOrganization",
+                      "name": "IESE Business School",
+                      "url": "https://www.iese.edu"
+                    },
+                    {
+                      "@type": "EducationalOrganization",
+                      "name": "Universitat Politècnica de Catalunya (UPC)",
+                      "url": "https://www.upc.edu"
+                    }
+                  ],
+                  "knowsAbout": [
+                    "Digital Banking",
+                    "Mobile Banking",
+                    "Fintech",
+                    "Growth Strategy",
+                    "User Acquisition",
+                    "Product-Led Growth",
+                    "Digital Transformation",
+                    "Neobanking",
+                    "Gen Z Banking"
+                  ],
+                  "award": [
+                    "Celent Model Bank Award for Innovation (2018)",
+                    "Best Mobile Banking App in Spain (Multiple years)",
+                    "Global Finance Best Digital Bank Nomination (2019)"
+                  ],
+                  "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Barcelona",
+                    "addressCountry": "Spain"
+                  }
+                },
+                {
+                  "@type": "WebSite",
+                  "@id": `${DATA.url}#website`,
+                  "url": DATA.url,
+                  "name": `${DATA.name} - Chief Growth Officer`,
+                  "description": DATA.description,
+                  "publisher": {
+                    "@id": `${DATA.url}#person`
+                  },
+                  "inLanguage": "en"
+                },
+                {
+                  "@type": "WebPage",
+                  "@id": `${DATA.url}#webpage`,
+                  "url": DATA.url,
+                  "name": `${DATA.name} - Chief Growth Officer | Digital Banking Leader`,
+                  "isPartOf": {
+                    "@id": `${DATA.url}#website`
+                  },
+                  "about": {
+                    "@id": `${DATA.url}#person`
+                  },
+                  "description": DATA.description,
+                  "inLanguage": "en"
+                },
+                {
+                  "@type": "ProfilePage",
+                  "mainEntity": {
+                    "@id": `${DATA.url}#person`
+                  },
+                  "dateCreated": "2024-01-01",
+                  "dateModified": "2026-01-11"
+                }
+              ]
+            })
+          }}
+        />
+        {/* Local Business Schema for GEO SEO */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "ProfessionalService",
+              "name": `${DATA.name} - Fintech Consulting & Speaking`,
+              "description": "Chief Growth Officer specializing in digital banking innovation, fintech strategy, and growth consulting. Available for speaking engagements and advisory roles.",
+              "url": DATA.url,
+              "image": `${DATA.url}/me.jpeg`,
+              "telephone": "",
+              "email": "durbanom@gmail.com",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Barcelona",
+                "addressRegion": "Catalonia",
+                "addressCountry": "ES"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 41.3851,
+                "longitude": 2.1734
+              },
+              "areaServed": [
+                {
+                  "@type": "Country",
+                  "name": "Spain"
+                },
+                {
+                  "@type": "Continent",
+                  "name": "Europe"
+                }
+              ],
+              "priceRange": "$$$$",
+              "serviceType": [
+                "Fintech Consulting",
+                "Digital Banking Strategy",
+                "Growth Strategy Consulting",
+                "Keynote Speaking",
+                "Advisory Services"
+              ],
+              "knowsLanguage": ["Spanish", "English", "Catalan"]
+            })
+          }}
+        />
       </head>
       <body
         className={cn(

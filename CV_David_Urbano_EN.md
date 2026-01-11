@@ -163,7 +163,7 @@ Available for:
 ## CONTACT
 
 ### Email
-- durbano@imagin.com
+- durbanom@gmail.com
 
 ### Digital Profiles
 
@@ -173,6 +173,3 @@ Available for:
 | **Twitter (X)** | @davidurbano |
 | **Web** | davidurbano.com |
 
----
-
-*Document generated from LinkedIn Optimization Plan - January 2026*
