@@ -171,5 +171,5 @@ Disponible para:
 |------------|--------|
 | **LinkedIn** | linkedin.com/in/davidurbano |
 | **Twitter (X)** | @davidurbano |
-| **Web** | davidurbano.com |
+| **Web** | davidurbano.me |
 

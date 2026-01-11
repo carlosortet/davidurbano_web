@@ -1,11 +1,11 @@
-# robots.txt for davidurbano.com
+# robots.txt for davidurbano.me
 # David Urbano - Chief Growth Officer @ imagin (CaixaBank)
 
 User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://davidurbano.com/sitemap.xml
+Sitemap: https://davidurbano.me/sitemap.xml
 
 # Crawl-delay for polite crawling
 Crawl-delay: 1

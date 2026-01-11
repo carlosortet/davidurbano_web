@@ -254,6 +254,22 @@ export default function Page() {
                 I&apos;m always open to discussing fintech, growth strategy,
                 and the future of Gen Z finance.
               </p>
+              <div className="flex justify-center gap-4 pt-4">
+                <Link
+                  href="/CV_David_Urbano_EN.pdf"
+                  className="inline-flex items-center gap-2 rounded-md bg-foreground px-4 py-2 text-sm font-medium text-background hover:bg-foreground/90 transition-colors"
+                  target="_blank"
+                >
+                  Download CV (EN)
+                </Link>
+                <Link
+                  href="/CV_David_Urbano_ES.pdf"
+                  className="inline-flex items-center gap-2 rounded-md border border-foreground px-4 py-2 text-sm font-medium text-foreground hover:bg-foreground hover:text-background transition-colors"
+                  target="_blank"
+                >
+                  Descargar CV (ES)
+                </Link>
+              </div>
             </div>
           </BlurFade>
         </div>

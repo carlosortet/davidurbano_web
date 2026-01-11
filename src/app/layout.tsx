@@ -38,6 +38,17 @@ export const metadata: Metadata = {
     "Barcelona",
     "Fintech Speaker",
     "Banking Innovation",
+    "European Neobanks",
+    "Challenger Banks Spain",
+    "imagin vs N26",
+    "imagin vs Revolut",
+    "Best Neobank Spain",
+    "Mobile Banking App Spain",
+    "Fintech Leader Europe",
+    "Digital Bank Spain",
+    "Neobanking Expert",
+    "Open Banking Spain",
+    "Banking App Ranking",
   ],
   authors: [{ name: DATA.name, url: DATA.url }],
   creator: DATA.name,
@@ -86,6 +97,11 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: DATA.url,
+    languages: {
+      "en": DATA.url,
+      "es": DATA.url,
+      "x-default": DATA.url,
+    },
   },
   category: "Finance",
 };
@@ -103,6 +119,10 @@ export default function RootLayout({
         <meta name="theme-color" content="#ffffff" />
         <meta name="msapplication-TileColor" content="#ffffff" />
         <link rel="canonical" href={DATA.url} />
+        {/* Hreflang tags for international SEO */}
+        <link rel="alternate" hrefLang="en" href={DATA.url} />
+        <link rel="alternate" hrefLang="es" href={DATA.url} />
+        <link rel="alternate" hrefLang="x-default" href={DATA.url} />
         {/* Schema.org JSON-LD for SEO */}
         <script
           type="application/ld+json"
@@ -151,7 +171,28 @@ export default function RootLayout({
                     "Product-Led Growth",
                     "Digital Transformation",
                     "Neobanking",
-                    "Gen Z Banking"
+                    "Gen Z Banking",
+                    "European Neobank Ecosystem",
+                    "imagin",
+                    "CaixaBank Digital",
+                    "Spanish Fintech",
+                    "N26",
+                    "Revolut",
+                    "Monzo",
+                    "Starling Bank",
+                    "Wise",
+                    "Openbank",
+                    "Bnext",
+                    "Mobile-only Banking",
+                    "Challenger Banks",
+                    "Open Banking",
+                    "PSD2",
+                    "Banking as a Service",
+                    "Customer Acquisition Fintech",
+                    "Retention Marketing Banking",
+                    "AI in Banking",
+                    "Personalization Banking",
+                    "App Store Banking Rankings"
                   ],
                   "award": [
                     "Celent Model Bank Award for Innovation (2018)",

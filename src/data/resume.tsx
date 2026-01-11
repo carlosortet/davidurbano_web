@@ -10,7 +10,7 @@ import {
 export const DATA = {
   name: "David Urbano",
   initials: "DU",
-  url: "https://davidurbano.com",
+  url: "https://davidurbano.me",
   location: "Barcelona, Spain",
   locationLink: "https://www.google.com/maps/place/barcelona",
   description:
