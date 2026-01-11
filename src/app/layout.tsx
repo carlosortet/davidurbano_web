@@ -142,7 +142,7 @@ export default function RootLayout({
                   "image": `${DATA.url}/me.jpeg`,
                   "email": "mailto:durbanom@gmail.com",
                   "sameAs": [
-                    "https://www.linkedin.com/in/davidurbano",
+                    "https://www.linkedin.com/in/david-urbano-3119231/",
                     "https://twitter.com/davidurbano"
                   ],
                   "worksFor": {

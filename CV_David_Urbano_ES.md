@@ -169,7 +169,7 @@ Disponible para:
 
 | Plataforma | Perfil |
 |------------|--------|
-| **LinkedIn** | linkedin.com/in/davidurbano |
+| **LinkedIn** | linkedin.com/in/david-urbano-3119231 |
 | **Twitter (X)** | @davidurbano |
 | **Web** | davidurbano.me |
 
